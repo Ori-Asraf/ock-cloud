@@ -1,0 +1,18 @@
+{
+  "name": "ockhosting-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "framework.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ori.#0069",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0"
+  }
+}

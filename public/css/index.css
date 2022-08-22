@@ -1,0 +1,44 @@
+/* Index Slider */
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.slider .slick-dots li.slick-active button{
+	background-color: var(--primary) !important;
+    border-radius: 25px;
+}
+
+.slider .slick-dots li.slick-active button:before {
+    color: var(--primary) !important;
+}
+
+.slider .slick-dots li button{
+	background-color: rgb(54, 54, 54) !important;
+    border-radius: 25px;
+}
+
+.slider .slick-dots button:before {
+    color: rgb(54, 54, 54) !important;
+}
+
+.info-container {
+    padding: 60px;
+  }
+  
+/* Info Title */
+  
+.info-heading {
+    text-align: center;
+}
+  
+.info-headingtitle {
+    font-weight: 400;
+}
+

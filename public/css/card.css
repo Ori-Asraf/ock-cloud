@@ -1,0 +1,112 @@
+/* Cards Stylesheet */
+
+.card-stylesheet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    margin-top: 20px;
+}
+
+.cards-container {
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards-container .card {
+    position: relative;
+    Width: 320px;
+    height: 550px;
+    background-color: rgb(54, 54, 54);
+    margin: 20px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-sizing: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.cards-container .card .circle {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    background: rgb(43, 43, 43);
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+    padding-left: 10%;
+    text-align: left;
+}
+
+.cards-container .card .circle h2 {
+    padding: 20px 0;
+    margin-bottom: -17.5px;
+    font-weight: 500;
+    text-shadow: 2px 2px var(--shadow-color);
+    color: var(--primary);
+}
+
+.cards-container .card .circle h4 {
+    margin-top: 5px;
+    font-weight: 400;
+    text-shadow: 2px 2px var(--shadow-color);
+    color: var(--text-secondary);
+}
+
+.cards-container .card .circle p {
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.cards-container .card .circle a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: var(--text-secondary);
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 7.5px;
+    transition: 1.0s;
+    font-weight: 600;
+}
+
+.cards-container .card .circle a:hover {
+    background-color: var(--gray);
+    margin-left: 7px;
+}
+
+.cards-container .card .card-content {
+    position: top;
+    page-break-after: 20px;
+    text-align: left;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container .card .card-content .card-list li{ 
+    list-style-type: none;
+}
+
+.cards-container .card .card-content .card-list li{ 
+    list-style-type: none;
+}
+
+.cards-container .card .card-content .card-list .card-item p{ 
+    font-size: 16px;
+    color: var(--text-primary);
+    transition: var(--transition-speed);
+}
+
+.cards-container .card .card-content .card-list .card-item p:hover{ 
+    color: var(--primary);
+}
+
+
+.cards-container .card .card-content .card-list .card-item i{ 
+    font-size: 20px;
+    margin-right: 5px;
+}

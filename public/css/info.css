@@ -1,0 +1,70 @@
+/* Info Stylesheet */
+  
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.info-card {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 180px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 25px;
+    background-color: rgb(43, 43, 43);
+}
+
+.info-cardtitle {
+    position: relative;
+    text-decoration: none;
+    grid-row: 2/3;
+}
+
+.info-card h1 {
+    color: var(--text-primary);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    transition: var(--transition-speed);
+}
+
+.info-card h1:hover{ 
+    color: var(--primary);
+}
+
+.info-card i {
+    margin-right: 15px;
+}
+  
+.info-cardtext {
+    grid-row: 3/4;
+    font-weight: 400;
+    color: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+/* Responsive */
+  
+@media (max-width: 1600px) {
+    .info-cards {
+      justify-content: center;
+    }
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .info-cardtext{
+        padding-top: 35px;
+    }
+
+    .info-card{
+        height: 350px;
+    }
+}
+
+  
